@@ -16,7 +16,7 @@ Case 2: Intensity control:
 Since during day time the street lights are switched OFF “the intensity control” part comes into picture during the night time. 
 For intensity control, each street light contains an IR sensor, which detects the objects in  front of it. When a vehicle crosses that IR sensor, it detects the vehicle and the intensity  of street light 1 and 2 gets increased whereas the 3rd one still operates at lower intensity. 
 When the vehicle passes the 1st street light and heads towards the 2nd one , now the 2nd and the 3rd one glows with maximum intensity and the 1st one back with lower intensity. 
-When the vehicle passes through the last one, the last (3rd) street light glows with  maximum intensity whereas the other two are glowing at low intensity. 
+When the vehicle passes through the last one, the last street light glows with  maximum intensity whereas the other two are glowing at low intensity. 
 When the IR sensor doesn't sense any vehicle during the night time, the street lights will remain glowing at low intensity. 
 
 
