@@ -1,4 +1,4 @@
-# Smart-Street-Light-System
+# Smart Street Light System
 This project describes implementation of arduino based Smart Street Light System
 
 ![Image 2](image2.jpeg)
