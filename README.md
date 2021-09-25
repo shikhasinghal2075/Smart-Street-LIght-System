@@ -1,4 +1,6 @@
 # Smart Street Light System
+![](https://visitor-badge.glitch.me/badge?page_id=shikhasinghal2075.shikhasinghal2075)
+
 This project describes implementation of arduino based Smart Street Light System
 
 ![Image 2](image2.jpeg)
