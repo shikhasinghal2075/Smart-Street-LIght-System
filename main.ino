@@ -18,14 +18,14 @@ int led3=10;       //Output LEDs 3
 //*************************************** VOID SETUP ***********************************
 void setup()
 {
-    pinMode(2,INPUT);         //Define PIN as Input
-    pinMode(3,INPUT);         //Define PIN as Input
-    pinMode(4,INPUT);         //Define PIN as Input
-    pinMode(5,OUTPUT);        //Define PIN as Digital Output
-    pinMode(6,OUTPUT);        //Define PIN as Digital Output
-    pinMode(10,OUTPUT);       //Define PIN as Digital Output
-    pinMode(A0,OUTPUT);       //Define PIN as Analog Output
-    Serial.begin(9600);       //Define Baudrate for Serial Communication
+    pinMode(2,INPUT);                       //Define PIN as Input
+    pinMode(3,INPUT);                       //Define PIN as Input
+    pinMode(4,INPUT);                       //Define PIN as Input
+    pinMode(5,OUTPUT);                      //Define PIN as Digital Output
+    pinMode(6,OUTPUT);                      //Define PIN as Digital Output
+    pinMode(10,OUTPUT);                     //Define PIN as Digital Output
+    pinMode(A0,INPUT);                      //Define PIN as Analog Input
+    Serial.begin(9600);                     //Define Baudrate for Serial Communication
 }
 
 //*************************************** VOID LOOP ***********************************
@@ -55,7 +55,7 @@ void loop()
         {
             digitalWrite(10,HIGH);
         }
-        else                               //If no vehicle detected turn OFF all the lights
+        else                                //If no vehicle detected turn OFF all the lights
         {
             analogWrite(5,0);
             analogWrite(6,0);
