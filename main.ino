@@ -8,11 +8,11 @@
 // 4. Trishna Aryal
 //*********************************** DECLARATIONS **************************************
 
-int ir1=2;         //IR Sensor 1
-int ir2=3;         //IR Sensor 2
-int ir3=4;         //IR Sensor 3
-int led1=5;        //Output LEDs 1
-int led2=6;        //Output LEDs 2
+int ir1=2;                                  //IR Sensor 1
+int ir2=3;                                  //IR Sensor 2
+int ir3=4;                                  //IR Sensor 3
+int led1=5;                                 //Output LEDs 1
+int led2=6;                                 //Output LEDs 2
 int led3=10;       //Output LEDs 3
 
 //*************************************** VOID SETUP ***********************************
